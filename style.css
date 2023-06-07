@@ -1,1 +1,54 @@
-body 
+    *{
+          margin:  0;
+          padding: 0;
+    }
+
+    body{
+        background-color: wheat;
+        font-family:   'signika negative',  sans-serif;
+
+    }
+
+    .cabecalho{
+        background-color: lightgray;
+        color; block-size;
+        display: flex;
+        justify-content: space-around;
+        padding: 24 0;
+    }
+
+    .cabecalho-imagem{
+        width: 20%;
+
+    }
+
+    .cabecalho-lista-item{
+        display: inline;inset-block;
+        margin: 0% 16;
+        padding: 24 0;
+        font-size: 24;
+
+    }
+
+    .secaol{
+        background-image: linear-gradient(#424E61,#16CFF8);
+        color: wheat;
+        display: flex;
+        justify-content: center;
+        padding: 24px 0;
+    }
+
+
+    .secaol-titulo{
+
+    }
+
+    .secaol-titulo{
+        width: 25%;
+    }
+
+    .secaol-div-conteudo{
+
+        
+    }
+    
