@@ -1,4 +1,6 @@
-   :root{
+@import url(/styles/header.css);
+
+:root{
     --cor-principal: #141313;
     --cor-secundaria: #2d1adf;
     --cor-escrita:#e01616;
