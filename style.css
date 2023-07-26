@@ -21,6 +21,14 @@
         width: 20%;
 
     }
+}
+
+.cabecalho-imagem{
+    width: 20%;
+
+}
+
+.cabecalho-lista-item{
 
     .cabecalho-lista-item{
         display: inline;inset-block;
