@@ -6,13 +6,14 @@
   align-items: center;
 }
 
+
 .cabecalho__menu {
   display: inline-block;
   background-image: url("../img/menu.svg");
   background-repeat: no-repeat;
   background-position: center;
-  width: 24x;
-  height: 24x;
+  width: 24px;
+  height: 24px;
 }
 
 .container {
@@ -22,9 +23,11 @@
 }
 
 .container__imagem {
-  width: 10%;
   padding: 1em;
 }
+  .container__imagem{
+    padding: 1em;
+  }
 
 .cabecalho__lista {
   display: none;
