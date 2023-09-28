@@ -91,24 +91,17 @@
      display: none;
   }
   .cabecalho__favorito{
-     display: none;
+     
+…
+.opcoes__botao:checked ~.cabecalho-lista{
+   display: none;
   }
 
   .opcoes{
      display: flex;
   }
 
-  .opcoes__item{
-     padding: 0 2em;
-     text-transform: uppercase;
-     color: aliceblue;
-  }
-
-  .opcoes__link{
-     text-decoration: none;
-     color: var(--branco);
-  }
-
+  …
   .opcoes__botao:checked ~.cabecalho-lista{
      display: block;
      width: auto;
