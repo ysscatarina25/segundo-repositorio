@@ -2,9 +2,9 @@
 
 :root{
     --cor-principal: #d8dbca;
-    --cor-secundaria: #0c0c0c;
-    --cor-escrita:#f5f5f5;
-    --cor-defundo: #faf5f5;
+    --cor-secundaria: #fffbfb;
+    --cor-escrita:#080808;
+    --cor-defundo: #9b2929;
     --fote-principal: "roboto";
     --fonte-secundaria: "prompt";
    } 
