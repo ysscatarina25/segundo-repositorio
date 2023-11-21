@@ -1,5 +1,5 @@
-..cabecalho {
-  background-color: var(--branco);
+.cabecalho {
+  background-color: var(--cor-principal);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,15 +30,15 @@
   width: 40px;
 }
 
-.cabecalho__lista {
+.cabecalho-lista {
   display: none;
-  background-color: rgba(228, 37, 196, 0.178);
+  background-color: var(--cor-de-fundo);
   position: absolute;
   top: 100%;
   width: 50vw;
 }
 
-.container__botao:checked~.cabecalho__lista {
+.container__botao:checked~.cabecalho-lista {
   display: block;
 }
 
@@ -46,16 +46,16 @@
   display: none;
 }
 
-.cabecalho-lista-titulo{
-   padding: 1em;
-   color: #d394be81;
-   font-weight: 700;
-   text-transform: uppercase;
+.cabecacalho-lista-titulo{
+  padding: 1em;
+  color: var(--preto);
+  font-weight: 700;
+  text-transform: uppercase;
 }
-   
+
 .cabecalho-lista-item{
-   padding: 1em;
-   color: black;
+  padding: 1em;
+  color: var(--azul);
 }
 
 .container-titulo{
@@ -63,53 +63,63 @@
 }
 
 .menu__lista-item{
-  background-color: azure;
-  color: var(--black);
+  background: var(--cor-principal);
+  color: var(--azul);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-transform: uppercase;
 }
 
-.opcoes{
+.opcoes {
   display: none;
 }
 
-.container__texto{
+.container__texto {
   display: none;
 }
 
 @media screen and (min-width: 1024px) {
   .container-titulo{
-     display: block;
-     font-family: var(--fonte-principal);
-     font-weight: 400;
-     font-size: 30px;
+      display: block;
+      font-family: var(--fonte-principal);
+      font-weight: 400;
+      font-size: 30px;
   }
 
   .cabecalho__menu{
-     display: none;
+      display: none;
   }
+
   .cabecalho__favorito{
-     
-…
-.opcoes__botao:checked ~.cabecalho-lista{
-   display: none;
+      display: none;
   }
 
   .opcoes{
-     display: flex;
+      display: flex;
   }
 
-  …
+  .opcoes__item{
+      padding: 0 2em;
+      text-transform: uppercase;
+      color: var(--branco);
+  }
+
+  .opcoes__link{
+      text-decoration: none;
+      color: var(--branco);
+  }
+
   .opcoes__botao:checked ~.cabecalho-lista{
-     display: block;
-     width: auto;
+      display: block;
+      width: auto;
   }
 
   .opcoes__botao{
-     display: none;
+      display: none;
   }
+
+ 
 }
 
 @media screen and (min-width: 1728px) {
