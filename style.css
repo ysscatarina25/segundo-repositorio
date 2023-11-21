@@ -22,7 +22,7 @@
     }
 
     .cabecalho{
-        background-color: lightgray;
+        background-color: rgb(209, 204, 204);
         color; block-size;
         display: flex;
         justify-content: space-around;
