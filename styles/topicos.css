@@ -21,7 +21,7 @@
 }
 
 .topicos__link {
-    color: var(--cor-principal);
+    color: var(--cor-letra);
     padding: 1em;
     background-color: #DCB397;
     text-decoration: none;
