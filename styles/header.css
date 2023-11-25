@@ -1,5 +1,5 @@
 .cabecalho {
-  background-color: var(--cor-principal);
+  background-color: var(--cor-de-fundol);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,6 +85,7 @@
       font-family: var(--fonte-principal);
       font-weight: 400;
       font-size: 30px;
+      color: var(--cor-letra);
   }
 
   .cabecalho__menu{
